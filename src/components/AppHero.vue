@@ -1,5 +1,7 @@
 <script>
-    
+    export default{
+        name: 'AppHero',
+    }
 
 </script>
 
@@ -14,7 +16,7 @@
 </template>
 
 <style scoped>
-    /* .jumbotron {
+    .jumbotron {
         background-image: url("https://picsum.photos/200/300")
-    }; */
+    }
 </style>

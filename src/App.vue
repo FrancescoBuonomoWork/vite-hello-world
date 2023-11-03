@@ -1,4 +1,5 @@
 <script>
+// import AppHero from './AppHero.vue';
 export default {
   data(){
     return{
@@ -6,7 +7,12 @@ export default {
     }
   },
   methods: {
-
+    haicliccato() {
+      console.log('hai cliccato')
+    }
+  },
+  components: {
+    // AppHero
   }
 }
 </script>
@@ -15,6 +21,8 @@ export default {
   <div>
     <h1>{{title}}</h1>
   </div>
+  <button @click="haicliccato()">Clicca  qui!</button>
+
   
 </template>
 
